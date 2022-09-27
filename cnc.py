@@ -636,7 +636,7 @@ cls      > Clear the console
 def login():
     clear()
     user = "GhostW"
-    passwd = "StellarW"
+    passwd = ""
     username = input("</> Username: ")
     password = getpass.getpass(prompt='</> Password: ')
     if username != user or password != passwd:
